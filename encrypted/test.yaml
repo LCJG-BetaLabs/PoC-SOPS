@@ -1,0 +1,32 @@
+a: ENC[AES256_GCM,data:sw==,iv:dKKFAtWlTpZFT0zOc6vOXcqfWhH8QSwmZXTanjf5XWs=,tag:d10XEAuwRPdISN6gjqPAXQ==,type:int]
+b: ENC[AES256_GCM,data:WA==,iv:dYcgGnpdgl6JyYtvx1c+ZfpeEBOotZa3893Td7pvgX0=,tag:rX8tQfuu9cve2CaRj0XPSQ==,type:int]
+c:
+    d: ENC[AES256_GCM,data:WQ==,iv:cjoQe3d4J8KxqokR7qWUiy+/ENlAFmj7lQ1pXeHfHr8=,tag:BB3yh83BSVED9+7tftlr6A==,type:int]
+    e:
+        f:
+            - ENC[AES256_GCM,data:Pg==,iv:3ieunL9GFpCt7QkD+I5szT0m51fDbOiF9/AyZS7bcWw=,tag:xOqjxiIPdDETqypcCMZVPA==,type:int]
+            - ENC[AES256_GCM,data:bQ==,iv:dT3U6UON8YR5cBbeP2r7AZ+QijxZXTJ2PlagawLnzFc=,tag:LrxRUGQsu3mBAlyywzI3wg==,type:int]
+            - ENC[AES256_GCM,data:XA==,iv:PdwoxD/wrQRhfqSkMxp0FsHOyIwixEwJLA1FgjwZKgk=,tag:8Db6mXrP37L1N7H7TF1v/w==,type:int]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2021-11-29T09:09:23Z"
+    mac: ENC[AES256_GCM,data:MEX0M5sWnmjMLEImGrIitZMKNbYHgpx5nbcXuF+1Ls+f6aYmKs9IwP5gEUREr0vY55P4SZWwszgYm7fvNBu0ueP3UqpBbsOqI57H0FOg9VCmUwvSaHfBXP8XE/BaTLqqAmLD5NG96dBdPhbB6km83ARTTaTC96Q/bnivwB0+fcs=,iv:F05BbKT8k2vHeBuH2Tl3NvWV1WWdkriNf/pkOHi3Nkk=,tag:nAcXXlXj7mBwJmlC11UVlA==,type:str]
+    pgp:
+        - created_at: "2021-11-29T09:09:22Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hF4DdHEw7A3piNwSAQdADCbs4sRKW/vFChtS8tqPY8S77wn7VoO3Car9/THSMlEw
+            p4grqvKD9fNgt2BdF7kK6cGDX34ZPN4IYVwKRufVnHKnXlNY7qQ3V721n2j7q0T7
+            1GYBCQIQ7YoJzwmRdN2bw/S3LM56NfYQOiLKZMgJ7W81GamZDfyWu9xMk5gub05b
+            sAfHFuMRDim2BNCcnZUPeZQExmpUj4L72ohstPlQ+OHfSTxrnPwTsaUjdtNcjakm
+            DdABzY3r6Dg=
+            =/lB5
+            -----END PGP MESSAGE-----
+          fp: C1B34A541C6B4F9ABFAE72E4794C2E7D74EA4138
+    unencrypted_suffix: _unencrypted
+    version: 3.7.1
