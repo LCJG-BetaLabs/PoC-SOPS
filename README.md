@@ -24,6 +24,6 @@ sops --input-type dotenv --output-type dotenv -d credentials/test.env.enc > cred
 
 ## Reference
 
-- [Basic Steps](https://www.varokas.com/secrets-in-code-with-mozilla-sops/)
+- [Setup GPG and configure Sops](https://www.varokas.com/secrets-in-code-with-mozilla-sops/)
 - [Recovery failed because no master key was able to decrypt the file](https://github.com/mozilla/sops/issues/304#issuecomment-509238334)
 - [file format issue](https://github.com/mozilla/sops/issues/367)
