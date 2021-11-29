@@ -1,0 +1,5 @@
+creation_rules:
+  # the value comes from generated GPG Key
+  # for aws, - kms: "arn:..." 
+  # SOPS also supports Azure
+  - pgp: C1B34A541C6B4F9ABFAE72E4794C2E7D74EA4138
