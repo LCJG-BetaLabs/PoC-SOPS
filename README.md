@@ -4,7 +4,7 @@ POC for SOPS to encrypt different files
 
 ## Getting Started
 
-import private key: https://raw.githubusercontent.com/LCJG-BetaLabs/PoC-SOPS/master/PoC-SOPS-private.rsa?token=AVIZQSUC7P2DYVBGD3YQV4LBVXLH6
+import private key: https://raw.githubusercontent.com/LCJG-BetaLabs/PoC-SOPS/master/PoC-SOPS-private.rsa
 
 passphrase: bet@L@bs@2O22
 
