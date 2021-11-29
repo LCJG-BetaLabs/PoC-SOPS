@@ -18,8 +18,6 @@ GPG_TTY=$(tty)
 export GPG_TTY
 
 sops -d encrypted/test.env # > credentials/test.env
-sops --output-type json -d test.json.enc > test-1.json
-sops --input-type dotenv --output-type dotenv -d credentials/test.env.enc > credentials/test-1.env
 ```
 
 ## Reference
