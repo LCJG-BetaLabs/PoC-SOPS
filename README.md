@@ -12,7 +12,7 @@ passphrase: bet@L@bs@2O22
 
 ### encrypt
 
-`sops -e credentials/test.env > encrypted/test.env`
+`sops [--intput-type dotenv|json|yml] [--output-type dotenv|json|yml] -e credentials/test.env > encrypted/test.env`
 
 ### decrypt
 
@@ -21,7 +21,7 @@ passphrase: bet@L@bs@2O22
 GPG_TTY=$(tty)
 export GPG_TTY
 
-sops -d encrypted/test.env # > credentials/test.env
+sops [--intput-type dotenv|json|yml] [--output-type dotenv|json|yml] -d encrypted/test.env # > credentials/test.env
 ```
 
 ## Reference
