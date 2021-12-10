@@ -6,9 +6,18 @@ POC for SOPS to encrypt different files
 
 import private key: https://github.com/LCJG-BetaLabs/PoC-SOPS/blob/master/PoC-SOPS-private.rsa
 
+```
+1. install gpg (ref: https://blog.ghostinthemachines.com/2015/03/01/how-to-use-gpg-command-line/)
+2. download the file and put to <file-path>
+3. gpg --import <file-path>
+4. delete the file from <file-path>
+```
+
 passphrase: bet@L@bs@2O22
 
 **(these are for demo purpose only, please do NOT put this kind of files in repository in any other case)**
+
+
 
 ### encrypt
 
