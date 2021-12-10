@@ -1,3 +1,4 @@
+```
 $ gpg --full-generate-key
 
 Kind of key : (1) RSA and RSA (default)
@@ -27,3 +28,4 @@ gpg> passwd
 # 1. Type current passphrase
 # 2. Type "" (Blank)
 # 3. Type "" (Confirm Blank)
+```
