@@ -29,3 +29,4 @@ sops [--intput-type dotenv|json|yml] [--output-type dotenv|json|yml] -d encrypte
 - [Setup GPG and configure Sops](https://www.varokas.com/secrets-in-code-with-mozilla-sops/)
 - [Recovery failed because no master key was able to decrypt the file](https://github.com/mozilla/sops/issues/304#issuecomment-509238334)
 - [file format issue](https://github.com/mozilla/sops/issues/367)
+- [export gpg private key](https://makandracards.com/makandra-orga/37763-gpg-extract-private-key-and-import-on-different-machine)
